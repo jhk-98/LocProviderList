@@ -31,8 +31,9 @@ public class LocProviderListActivity extends AppCompatActivity {
                 locProvList = locMgr.getAllProviders();
 
                 String s = "";
+                int [] a = new int [locProvList.size()];
 
-                for (int i=0; i<locProvList.size(); i++){
+                for (int i : a){
                     s += "Loc. Provider: " + locProvList.get(i) + "\n" + "Status:"
                             + locMgr.isProviderEnabled(locProvList.get(i)) + "\n\n";
 
