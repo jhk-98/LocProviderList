@@ -32,7 +32,6 @@ public class LocProviderListActivity extends AppCompatActivity {
 
                 String s = "";
 
-
                 for(String lp : locProvList){
                     s += "Loc. Provider " + lp + "\n"
                             + "Status: " + locMgr.isProviderEnabled(lp) + "\n\n";
